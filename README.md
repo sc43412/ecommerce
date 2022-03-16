@@ -10,7 +10,7 @@ git --version
 ```
 2. Now clone this repository
 ```go
-git clone https://github.com/wizzenalum/Ecommerce-API.git
+git clone https://github.com/sc43412/ecommerce.git
 ```
 3. Change directory to Ecomerce-API
 ```go

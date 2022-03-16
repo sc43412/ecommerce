@@ -1,31 +1,31 @@
-GET http://localhost:8000/v1/products HTTP/1.1
+GET http://localhost:8000/v1/products 
 
 ###
-POST http://localhost:8000/v1/products/create HTTP/1.1
+POST http://localhost:8000/v1/products/create 
 Content-Type: application/x-www-form-urlencoded
 
-name=caty
-&quantity=10
+name= Tshirts
+&quantity=100
 
 ###
-DELETE http://localhost:8000/v1/products/614fe49a542d64f2de7be1bf HTTP/1.1
+DELETE http://localhost:8000/v1/products/622b61cc61442709d4ef85ed 
 
 ###
-POST  http://localhost:8000/v1/products/615a62eb61df2d14c3a802df/update_quantity/?number=100 HTTP/1.1
+POST  http://localhost:8000/v1/products/622b61cc61442709d4ef85ed/update_quantity/?number=100 
 
 
 ###              ******** DEPLYMENT TEST ***********
-GET https://ecommerce-api-application.herokuapp.com/v1/products HTTP/1.1
+GET https://ecommerce-api-ready.herokuapp.com//v1/products 
 
 ###
-POST https://ecommerce-api-application.herokuapp.com/v1/products/create HTTP/1.1
+POST https://ecommerce-api-ready.herokuapp.com/v1/products/create 
 Content-Type: application/x-www-form-urlencoded
 
 name=key
 &quantity=50
 
 ###
-DELETE https://ecommerce-api-application.herokuapp.com/v1/products/614fe49a542d64f2de7be1bf HTTP/1.1
+DELETE https://ecommerce-api-ready.herokuapp.com/v1/products/622b61cc61442709d4ef85ed 
 
 ###
-POST  https://ecommerce-api-application.herokuapp.com/v1/products/614fe49a542d64f2de7be1bf/update_quantity/?number=100 HTTP/1.1
+POST  https://ecommerce-api-ready.herokuapp.com/v1/products/622b61cc61442709d4ef85ed/update_quantity/?number=100 HTTP/1.1
